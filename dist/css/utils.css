@@ -1,0 +1,45 @@
+.container-1 {
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+/* .container-2 {
+} */
+
+/* .m-auto {
+  margin: 0;
+} */
+
+/* Buttons */
+
+/* .btn-lg {
+  padding: 5px 12px;
+  width: 150px;
+  margin: 1rem 1rem;
+  border-radius: 4px;
+}
+
+.form-control {
+  padding: 0.6rem 8rem;
+} */
+
+/* Menu Buttons */
+
+.menu-btn {
+  position: absolute;
+  top: 35px;
+  right: 32px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.menu-btn .btn-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: #fff;
+}
+
+.current a {
+  color: #00b4cc !important;
+}

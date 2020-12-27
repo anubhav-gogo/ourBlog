@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responisve.css">
     <title>The Ellevator</title>
 </head>
 <body>
-    
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+        <nav>
+            <ul class = "nav-links">
+                <li class = "current"><a href="#">Home</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+        </nav>
+        
+    </header>
+    <section id = "showcase">
+        <h1>The Ellevator</h1>
+    </section>
+    <section id = "searchwrap" class = "container-1">
+    <div class = "search">  
+       <input type="text" class = "searchTerm" placeholder="Search">
+       <button type = "submit" class = "searchButton"><i class = "fa fa-search"></i></button>
+    </div>
+    </section>
+    <script src="./js/sandbox.js"></script>
+
+    <main class = "home-articles container-1 font-2">
+        <h2>Featured Articles</h2>
+        <div class = "home-article">
+            <div class="b-image">
+                <img src="./img/w&c.jpg" alt="writing">
+            </div>
+
+            <div class="home-article-content">
+                <h3>My Article</h3>
+                <span>Author Name</span>
+                <span>27th December | 6 min read</span>
+            </div>
+            
+            
+        </div>
+        <div class = "home-article">
+            <div class="b-image">
+                <img src="./img/w&c.jpg" alt="writing">
+            </div>
+
+            <div class="home-article-content">
+                <h3>My Article</h3>
+                <span>Author Name</span>
+                <span>27th December | 6 min read</span>
+            </div>
+            
+            
+        </div>
+        <div class = "home-article">
+            <div class="b-image">
+                <img src="./img/w&c.jpg" alt="writing">
+            </div>
+
+            <div class="home-article-content">
+                <h3>My Article</h3>
+                <span>Author Name</span>
+                <span>27th December | 6 min read</span>
+            </div>
+            
+            
+        </div>
+
+        
+    </main>
+    <footer>
+        Copyright &copy; The Ellevator
+    </footer>
 </body>
 </html>
