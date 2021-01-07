@@ -21,8 +21,9 @@
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: var(--font-1);
   font-size: 1.5rem;
+  line-height: 1.5;
   color: #000;
 }
 
@@ -37,7 +38,13 @@ header {
   top: 35px;
   left: 15px;
   z-index: 3;
+  cursor: pointer;
+  /* background: yellow; */
 }
+
+/* .menu-btn .btn-line {
+  background: #00b4cc;
+} */
 
 nav {
   position: fixed;
@@ -68,6 +75,10 @@ nav {
   text-decoration: none;
   font-size: 1rem;
   color: #fff;
+}
+
+.nav-links li a:hover {
+  color: yellow;
 }
 
 /*Show Class*/
@@ -123,6 +134,10 @@ nav {
   z-index: 1;
 }
 
+#showcase form {
+  z-index: 1;
+}
+
 /* Search Section */
 
 #searchwrap {
@@ -132,6 +147,10 @@ nav {
 .search {
   width: 100%;
   position: relative;
+  /* display: flex; */
+}
+
+.search form {
   display: flex;
 }
 
@@ -141,7 +160,7 @@ nav {
   border-right: none;
   padding: 5px;
   height: 20px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px 0px 0px 5px;
   outline: none;
   color: #9dbfaf;
 }
@@ -166,6 +185,7 @@ nav {
 main.home-articles {
   color: black;
   margin-top: 30px;
+  min-height: calc(100vh - 70px);
 }
 
 .home-article {
@@ -175,7 +195,7 @@ main.home-articles {
 }
 
 .b-image img {
-  width: 305px;
+  width: 260px;
   height: 100%;
 }
 
@@ -184,11 +204,28 @@ main.home-articles {
   padding: 25px;
 }
 
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.d-length {
+  font-size: 15px;
+}
+
 footer {
   background: rgba(0, 0, 0, 0.7);
   height: 60px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 0;
+  color: white;
+  font-size: 16px;
+}
+footer .icons a {
+  color: black;
+  margin: 0 3px;
 }
